@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form3</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Поиск</h1>
+            <form action="https://fom.in.ua/echo" method="post">
+                <p>
+                    <label>
+                        Тип кузова
+                        <select name="select carcase" id="carcase">
+                            <option value="all">Все</option>
+                            <option value="sedan">Седан</option>
+                            <option value="SUV">Внедорожник</option>
+                            <option value="minivan">Минивен</option>
+                            <option value="hatchback">Хэтчбек</option>
+                            <option value="wagon">Универсал</option>
+                            <option value="another">Другое</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Марка авто
+                        <select name="select brand" id="brand">
+                            <option value="all">Все</option>
+                            <option value="Audi">Audi</option>
+                            <option value="BMW">BMW</option>
+                            <option value="Ford">Ford</option>
+                            <option value="Nissan">Nissan</option>
+                            <option value="Toyota">Toyota</option>
+                            <option value="another">Другое</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Страна производитель
+                        <select name="select country" id="country">
+                            <option value="all">Все</option>
+                            <option value="Germany">Германия</option>
+                            <option value="USA">США</option>
+                            <option value="Japan">Япония</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Цена:
+                        <input type="text" name="price from" placeholder="От">
+                    </label>
+                    <label>
+                        <input type="text" name="price to" placeholder="До">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Год выпуска
+                        <input type="text" name="year from" placeholder="От">
+                    </label>
+                    <label>
+                        <input type="text" name="year to" placeholder="До">
+                    </label>
+                </p>
+                <p>
+                    <span>Состояние</span><br>
+                    <label>
+                        <input type="checkbox" name="broken">
+                        Битая
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="on credit">
+                        В кредите
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="not cleared">
+                        Нерастаможенная
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="for parts">
+                        На запчасти
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Тип топлива
+                        <select name="fueltype" id="fuel">
+                            <option value="all">Все</option>
+                            <option value="petrol">Бензин</option>
+                            <option value="diesel">Дизель</option>
+                            <option value="gas">Газ</option>
+                            <option value="gas-gasoline">Газ/Бензин</option>
+                            <option value="hybrid">Гибрид</option>
+                            <option value="electro">Электро</option>
+                            <option value="another">Другое</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Тип коробки передач
+                        <select name="transmission" id="transmission">
+                            <option value="all">Все</option>
+                            <option value="мechanics">Механика</option>
+                            <option value="аutomatiс">Автомат</option>
+                            <option value="variable">Вариатор</option>
+                            <option value="robot">Робот</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Цвет
+                        <input type="color" name="color" value="#000000">
+                    </label>
+                </p>
+                <p>
+                    <span>Комфорт</span><br>
+                    <label>
+                        <input type="checkbox" name="luke">
+                        Люк
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="leather">
+                        Кожаный салон
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="conditioner">
+                        Кондиционер
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="ventilation">
+                        Вентиляция сидений
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="heating">
+                        Подогрев сидений
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="electricwindows">
+                        Электростеклоподъёмникиж
+                    </label>
+                </p>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
