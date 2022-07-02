@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -10,7 +10,84 @@
 </head>
 
 <body>
+    <section>
+        <h3>Виды селекторов:</h3>
+        <ul>
+            <li>
+                * - универсальный селектор, позволяющий установить одновременно
+                один стиль для всех элементов веб-страницы;
+            </li>
+            <li>
+                p - селектор атрибута (элемента), всем одноимённым элементам
+                будет присвоен стиль;
+            </li>
+            <li>
+                .class - селектор класса, стиль будет присвоен всем элементам,
+                у которых задан этот класс;
+            </li>
+            <li>
+                #nameId - селектор id, выбирает элемент с данным идентификатором;
+            </li>
+            <li>
+                a[atribut] - селектор атрибута, устанавливает стиль для элемента,
+                если задан специфичный атрибут, можно применять и без тэга;
+            </li>
+            <li>
+                E F - селектор вложенности, выбирает все элементы F, вложенные в E;
+            </li>
+            <li>
+                E > F - выбирает все дочерние элементы F,
+                у которых родитель - элемент E
+            </li>
+            <li>
+                E + F - выбирает все элементы F, которые расположены
+                сразу после элементов E
+            </li>
+            <li>
+                E ~ F - Выбор каждого элемента F, которому предшествует элемент E
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h1>Home work №6</h1>
+        <p class="text paragraph1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas fugit autem exercitationem molestiae, velit
+            illo animi soluta magnam voluptate ipsum odit impedit neque libero minus porro, accusamus maiores quis!
+            Illum, natus voluptatem non ad iure est saepe voluptatum deserunt expedita corporis ea, atque rerum, eveniet
+            iste. Blanditiis modi earum sed.
+        </p>
+        <p class="text paragraph2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis molestias ex, magni voluptatum quo nam
+            porro placeat fuga eum, obcaecati consequuntur dolores voluptas illum, odio reprehenderit quisquam non sit
+            quod!
+        </p>
+        <div>
+            <span>Список:</span>
+            <ul class="items">
+                <li class="item item1">главный пункт</li>
+                <li>обычный пункт</li>
+                <li>обычный пункт</li>
+            </ul>
+            <span>Остальное по желанию</span>
+        </div>
+        <h3>Подведём итоги</h3>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto eveniet natus reiciendis autem labore
+            illo ullam animi velit inventore laudantium.
+        </p>
+        <label for="grade">
+            <span>
+                Поставьте оценку от 1 до 100
+            </span>
+            <input id="grade" type="text">
+        </label>
+        <span>
+            Или напишите мне:
+            <a href="mailto:123456@gmail.com">
+                123456@gmail.com</a>
+        </span>
 
+    </section>
 </body>
 
 </html>

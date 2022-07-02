@@ -1,9 +1,57 @@
-* {
+/** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+  } */
   
   html {
     font-size: 20px;
   }
+
+  li+li {
+    margin-top: 20px;
+  }
+
+  h1 {
+    color: rgb(232, 39, 39);
+  }
+
+  .text {
+    color: #6412ea;
+  }
+
+  .text.paragraph2 {
+    color: #efb908;
+  }
+
+ul.items > li {
+  color: #74eba8;
+}
+
+li.item.item1 {
+  color: #ea2711;
+}
+
+div > span {
+  color: #1607a0;
+}
+
+div + h3 {
+  color: #810606;
+}
+
+h3 ~ p {
+  color: #d41a6e;
+}
+
+  label span {
+    color: #1ff5d5;
+  }
+
+  #grade {
+    color: #0a86f2
+      }
+
+    a[href="mailto:123456@gmail.com"] {
+      color: #f17ed8
+    }
