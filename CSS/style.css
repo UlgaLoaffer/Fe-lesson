@@ -24,15 +24,19 @@ section {
   background-color: #c4c4c4;
 }
 
+.wrapper {
+  background-color: #e6e6e6;
+}
+
 .container {
   width: 100%;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #e6e6e6;
 }
 
-.clearfix {
+.clearfix::after {
+  content: "";
   display: block;
   clear: both;
 }
@@ -45,27 +49,17 @@ section {
 }
 
 .card-small {
-  display: inline-block;
   width: 100px;
   height: 100px;
-  background-color: #fc8f8f;
-  text-align: center;
+  font-size: 0.56rem;
 }
 
-.float-element-1 {
-  max-width: 200px;
+.float-left {
   float: left;
   margin-right: 15px;
 }
 
-.float-element-2 {
-  max-width: 200px;
-  float: right;
-  margin-left: 15px;
-}
-
-.float-element-3 {
-  max-width: 100px;
+.float-right {
   float: right;
   margin-left: 15px;
 }
